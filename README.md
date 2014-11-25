@@ -6,12 +6,12 @@ Using Nevermore Generator you get puzzle blocks like headers, contents, projects
 
 
 
-20+ reusable UI components
-============================
+<h2>20+ reusable UI components</h2>
+
 Each component has the PSD source file and it's ready coded, they are built using LESS, however you will find also the CSS version.
 All components are responsive.
 
-<h1>3 HEADER</h1>
+3 HEADERS
 7 CONTENT 
 3 SHOWCASE/PORTFOLIO 
 2 TEAM B
