@@ -11,7 +11,7 @@ Using Nevermore Generator you get puzzle blocks like headers, contents, projects
 Each component has the PSD source file and it's ready coded, they are built using LESS, however you will find also the CSS version.
 All components are responsive.
 
-3 HEADER 
+<h1>3 HEADER</h1>
 7 CONTENT 
 3 SHOWCASE/PORTFOLIO 
 2 TEAM B
