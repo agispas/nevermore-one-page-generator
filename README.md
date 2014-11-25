@@ -6,12 +6,16 @@ Using Nevermore Generator you get puzzle blocks like headers, contents, projects
 
 
 
-Features
+20+ REUSABLE UI COMPONENTS
 ============================
+Each component has the PSD source file and it's ready coded, they are built using LESS, however you will find also the CSS version.
+All components are responsive.
 
-Puzzle like blocks 
-  You can easily combine ready made blocks in order to create your website.
+3 HEADER 
+7 CONTENT 
+3 SHOWCASE/PORTFOLIO 
+2 TEAM B
+1 CONTACT 
+1 PRICE TABLE
+3 FOOTERS
 
-140+ possible combination 
-  
-  At this point you have 108 possible combinations to create a unique website, anyway,  with each component we add every month    your posibilities will increase.
