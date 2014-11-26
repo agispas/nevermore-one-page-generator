@@ -26,15 +26,29 @@ All components are responsive.
 Inside the downloaded package you will find three folders:
 <ul>
 <li>
-"CODE"
+<strong>"CODE"</strong>
 <ul>
 <li>
-<span>common</span>
- contains all the necessary files for the framework, like IMAGES used by all components, FONTS, JAVASCRIPT files, CSS and LESS files.
-Basically, these files are the core of the framework. We strongly suggest to not modify any of these files unless you have experience with HTML/CSS/JAVASCRIPT.
+<strong>common</strong> - contains all the necessary files for the framework, like IMAGES used by all components, FONTS, JAVASCRIPT files, CSS and LESS files.
+Basically, these files are the core of the framework.
 </li>
+<li>
+<strong>layouts</strong> - contains six ready made demos picked by us for the purpose of demonstrantion of what you can achieve using "Nevermore Generator"
+</li>
+<li><strong>ui-kit</strong> - contains all the ready coded components like headers, contents, projects, teams, prices, contacts, footers.</li>
 </ul>
 <li>
+<strong>"PSD"</strong>
+<ul>
+<li>
+<strong>ui-kit</strong> - contains all PSD files of the components like headers, contents, projects, teams, prices, contacts, footers.
+</li>
+<li>
+<strong>layouts</strong> - contains six ready made PSD demos picked by us for the purpose of demonstrantion of what you can achieve using "Nevermore Generator"
+</li>
+
+</ul>
+</li>
 </ul>
 As you see, there are two main folders "CODE" and "PSD"
 
