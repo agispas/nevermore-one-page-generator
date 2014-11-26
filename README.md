@@ -23,10 +23,19 @@ All components are responsive.
 
 <h2>How to use</h2>
 
-Inside the downloaded package you wil find this:
-<img src="http://i61.tinypic.com/28s0v1v.jpg">
-
-
+Inside the downloaded package you will find three folders:
+<ul>
+<li>
+"CODE"
+<ul>
+<li>
+<span>common</span>
+ contains all the necessary files for the framework, like IMAGES used by all components, FONTS, JAVASCRIPT files, CSS and LESS files.
+Basically, these files are the core of the framework. We strongly suggest to not modify any of these files unless you have experience with HTML/CSS/JAVASCRIPT.
+</li>
+</ul>
+<li>
+</ul>
 As you see, there are two main folders "CODE" and "PSD"
 
 CODE
