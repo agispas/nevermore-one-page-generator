@@ -136,6 +136,8 @@ There are also 6 live demos with some of the UI components combined:
 <h2>License</h2>
 
 Copyright 2014, Outboxvision
+
 This content is released under the MIT license
+
 http://outboxvision.co
 
