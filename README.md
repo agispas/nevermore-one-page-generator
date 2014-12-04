@@ -120,8 +120,10 @@ The last step is the same as in the CSS version
 
 If you don't understand exactly how this works you can take a look inside the "layouts" folder. There you will find, for example "Layout-01" and inside that folder you have another folder called "LESS" and there you will find exactly how it's working.
 
-<h2>Demos</h2>
+<h2>UI Components</h2>
 You can see how the UI components look here: http://outboxvision.co/nevermore/landing/#components
+
+<h2>Full Demos</h2>
 
 There are also 6 live demos with some of the UI components combined:
 <ul>
@@ -132,6 +134,17 @@ There are also 6 live demos with some of the UI components combined:
 <li><a href="http://outboxvision.co/nevermore/layouts/layout-05/index.html">Demo 5</a></li>
 <li><a href="http://outboxvision.co/nevermore/layouts/layout-06/index.html">Demo 6</a></li>
 </ul>
+
+<h2>How to automatically generate an website</h2>
+You just have to drag and drop the components you like and press a button.
+http://outboxvision.co/nevermore/generator/generator-ui
+
+<h2>Documentation</h2>
+There is a interactive documentation (including video tutorials) for all the UI components.
+You can take a look here: http://outboxvision.co/nevermore/documentation/index.html"
+
+<h2>If you have new ideas for the UI components, please don't hesitate!</h2>
+<h2>Let's make this bigger, togheter!</h2>
 
 <h2>License</h2>
 
