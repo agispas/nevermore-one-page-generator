@@ -139,7 +139,7 @@ There are also 6 live demos with some of the UI components combined:
 You just have to drag and drop the components you like and press a button.
 http://outboxvision.co/nevermore/generator/generator-ui
 
-<strong>Please note that some icons are not displaying properly on localhost, it's reccommended to upload on a server.</strong>
+<strong>Please note that some icons are not displaying properly on localhost, it's recommended to upload on a server.</strong>
 
 <h2>Documentation</h2>
 There is a interactive documentation (including video tutorials) for all the UI components.
