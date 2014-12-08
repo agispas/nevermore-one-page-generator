@@ -1,0 +1,99 @@
+
+// CUSTOM MIXINS
+// --------------------------------------------------
+
+
+.ul-inline-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+  li {
+    float: left;
+    display: block;
+  }
+}
+ 
+.ul-block-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+}
+
+
+.background-cover(@cover: cover) {
+  -webkit-background-size: @cover;
+  -moz-background-size: @cover;
+  -o-background-size: @cover;
+  background-size: @cover;
+}
+
+// ABSOLUTE VERTICAL AND HORIZONTAL CENTERING
+.absolute-centering(@translate:translate(-50%,-50%)) {
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    -webkit-transform: @translate;
+    -ms-transform: @translate;
+    transform: @translate;
+            }
+
+
+
+// Vertical centering
+.v-center(){
+  &.v-center,
+  .v-center {
+    display: table;
+     width: 100%;
+    > div {
+      display: table-cell;
+      vertical-align: middle;
+      margin-top: 0; margin-bottom:0;
+      float: none;
+    }
+   
+  }  
+}
+           
+
+.ul-inline-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+  li {
+    float: left;
+    display: block;
+  }
+}
+
+ .ul-block-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+}           
+
+
+.textShadowBlack(@shadow: 0 1px 0px rgba(0,0,0,1)) {
+  text-shadow: @shadow;
+}
+.textShadowWhite(@shadow: 0 1px 0px rgba(255,255,255,1)) {
+  text-shadow: @shadow;
+}
+
+.transition (@prop: all, @time: 1s, @ease: linear) {
+    -webkit-transition: @prop @time @ease;
+    -moz-transition: @prop @time @ease;
+    -o-transition: @prop @time @ease;
+    -ms-transition: @prop @time @ease;
+    transition: @prop @time @ease;
+}
+ 
+
+ .gradient (@origin: left, @start: #ffffff, @stop: #000000) {
+    background-color: @start;
+    background-image: -webkit-linear-gradient(@origin, @start, @stop);
+    background-image: -moz-linear-gradient(@origin, @start, @stop);
+    background-image: -o-linear-gradient(@origin, @start, @stop);
+    background-image: -ms-linear-gradient(@origin, @start, @stop);
+    background-image: linear-gradient(@origin, @start, @stop);
+}
