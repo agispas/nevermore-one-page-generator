@@ -53,6 +53,9 @@ Basically, these files are the core of the framework.
 <strong>"Documentation"</strong> - Here you'll find some general info for each UI components and some video tutorials.
 </li>
 </ul>
+
+<h4>You cand download the entire UI-KIT here: http://www.outboxvision.co/nevermore.html
+
 <h3>Let's begin!</h3>
 
 If you have no experience with "LESS" you can use "CSS", you will find these two inside the "ui-kit" folder. In order to start you need to put the following code into your HTML file:
