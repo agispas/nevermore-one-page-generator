@@ -1,0 +1,35 @@
+/**
+ * Content 05 stylesheet  
+ * */
+.content-05 .title {
+  margin-bottom: 150px;
+}
+.content-05 .title h1 {
+  color: #353738;
+  font-weight: bold;
+}
+.content-05 .title h5 {
+  color: #353738;
+  line-height: 24px;
+}
+.content-05 .title .small-border {
+  width: 10%;
+  border: 2px solid;
+}
+.content-05 .feature {
+  margin-bottom: 150px;
+}
+.content-05 .feature .image {
+  margin-bottom: 100px;
+}
+.content-05 .feature:last-child {
+  margin-bottom: 0px;
+}
+.content-05 .feature h2 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+.content-05 .feature h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

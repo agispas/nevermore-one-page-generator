@@ -1,0 +1,72 @@
+/**
+ * Project 02 stylesheet  
+ * */
+.projects-02 {
+  overflow: hidden;
+}
+.projects-02 figure {
+  position: relative;
+  height: 300px;
+}
+.projects-02 figure img {
+  width: 100%;
+}
+.projects-02 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 17, 58, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.projects-02 .overlay .center {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.projects-02 .overlay .center h1 {
+  display: inline;
+  padding-right: 6em;
+  color: #ffffff;
+}
+.projects-02 .project:hover .overlay {
+  opacity: 1;
+}
+.projects-02 .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.projects-02 .load-more {
+  background: gainsboro;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+  color: #4b113a;
+  padding-bottom: 60px;
+}
+.projects-02 .load-more:hover {
+  background: rgba(75, 17, 58, 0.6);
+}
+.projects-02 .load-more span.icon {
+  display: block;
+  position: relative;
+  top: -30px;
+  z-index: 2;
+}
+.projects-02 .load-more .btn-simple {
+  padding: 0;
+  background: none;
+  width: 100%;
+  font-size: 22px;
+}
+.projects-02 .hide-project {
+  display: none;
+}

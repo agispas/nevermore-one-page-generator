@@ -1,0 +1,86 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.second-nav {
+	padding-top:25px;
+
+}
+
+.begin { 
+
+padding-top:100px;
+
+}
+
+.jumbotron.doc { 
+
+ background: url(../img/header-documentation.jpg) no-repeat top left scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+padding-top:150px;
+padding-bottom:150px;
+color:white;
+margin-bottom:0;
+}
+
+
+.jumbotron h1 { color:white;}
+
+.doc-feature { 
+	background:rgb(236, 235, 235);
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+
+.feature p { 
+margin-top:20px;
+
+}
+.btn-black { 
+
+background: none;
+box-shadow: none;
+border: 1px solid black;
+border-radius: 0;
+padding: 10px;
+margin-top:20px;
+}
+
+.btn-black:hover { 
+background:black;
+
+text-shadow: 0;
+text-shadow: none;
+color: white;
+}
+
+.second-nav { background: rgba(22, 22, 22, 0.96); margin-bottom:0;padding-bottom: 20px;margin-top:10px;}
+.second-nav a.navbar-brand  {color:#019875;}
+
+.second-nav a {color:white;text-shadow:none!important;}
+
+.second-nav .nav>li>a:hover {background:#019875;}
+.navbar-doc {background:black!important; height:70px;}
+.navbar-doc .navbar-brand { padding-top:10px;}
+
+.navbar-doc .navbar-nav {padding-top:10px;}
+
+.navbar-doc .navbar-nav>li>a {color:white;}
+
+footer.doc {padding-top:20px;padding-bottom:20px;}
+a.green {color:#169776;}
+
+
+
+
+
+
+
+

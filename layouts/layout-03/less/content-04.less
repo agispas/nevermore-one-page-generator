@@ -1,0 +1,41 @@
+/**
+ * Content 04 stylesheet  
+ * */
+
+ .content-04 {
+
+    padding-top:0px;
+    color: @white;
+    .bg-image {
+        background: url(../../../common/images/content-04.jpg) no-repeat top left scroll;
+        .background-cover(@cover: cover);
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h1.title {
+        color: @white;
+        font-weight: bold;
+    }
+    h2 {
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    h4 {
+        margin-bottom: 20px;
+    }
+    .border {
+        p {
+            margin-bottom: 50px;
+            &:before, &:after {
+                content: "-----";
+                padding-left: 3px;
+                padding-right: 3px;
+                letter-spacing: -2px;
+            }
+        }
+    }
+    h2, h4 {
+        color: @white;
+    }
+}

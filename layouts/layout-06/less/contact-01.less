@@ -1,0 +1,111 @@
+/**
+ * Contact 01 stylesheet  
+ * */
+
+
+.spacing {
+    padding-bottom: 0;
+}
+.contact-01 {
+    .title {
+        h2 {
+            color: #000;
+            font-family: @headline-font-family;
+            font-weight: bold;
+        }
+        .small-border {
+            width: 10%;
+            border: 2px solid @header-bg;
+        }
+        h5 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: @text-darkgray;
+            font-family: @headline-font-family;
+        }
+    }
+    ul.info {
+        list-style-type: none;
+        padding-left: 0;
+        color: @text-lightergray;
+        padding-bottom: 30px;
+    }
+    #contactForm {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        h3 {
+            font-family: @headline-font-family;
+            font-weight: bold;
+            color: #000;
+            padding-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 25px;
+            input, textarea {
+                border: none;
+                border-radius: 0px;
+                border-bottom: 1px solid @text-lightergray;
+                box-shadow: none;
+            }
+        }
+        .btn-simple {
+            background: none;
+            font-weight: bold;
+            padding-right: 0px;
+            i {
+                padding-right: 10px;
+            }
+        }
+        i  {
+            vertical-align:middle;
+        } 
+
+    }
+    ul.social-icons {
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 75px;
+        @media (max-width:@screen-xs-min) {
+            padding-top: 0;
+            padding-bottom: 75px;
+        }
+        li {
+            padding-top: 25px;
+            @media only screen and (max-width:480px) {
+                display: inline-block;
+                padding-right: 30px;
+                &:last-child {
+                    padding-right: 0px;
+                }
+            }
+            a {
+                color: @text-lightergray;
+            }
+        }
+    }
+    .map {
+        border-bottom: 4px solid @header-bg;
+        iframe {
+            width: 100%;
+        }
+    }
+
+      #success, #error {
+        display: none;
+    }
+    #success span, #erro span {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    #success span p, #error span p {
+        margin-top: 6em;
+    }
+    #success span p {
+        color: #9bd32d;
+    }
+    #error span p {
+        color: #c0392b;
+    }
+}

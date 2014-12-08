@@ -1,0 +1,85 @@
+/**
+ * Footer 03 stylesheet  
+ * */
+
+ .footer-03 {
+    position: relative;
+    padding-top: 125px;
+    h2 {
+        padding-top: 20px;
+        font-family: @headline-font-family;
+        font-weight: bold;
+        color: @headline-darkgray;
+    }
+    .send {
+        @media only screen and (max-width:480px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .subscribe {
+        background: #f7f7f7;
+        margin-top: 50px;
+    }
+    #newsletter {
+        .form-group {
+            width: 100%;
+            margin-bottom: -10px;
+        }
+        span.icon i {
+            vertical-align: 0;
+        }
+        input#email {
+            border-radius: 0px;
+            border: none;
+            box-shadow: none;
+            padding: 40px;
+            height: auto;
+            background: transparent;
+            font-size: 22px;
+            display: inline-block;
+            width: 80%;
+        }
+        .btn-subscribe {
+            width: 100%;
+            padding: 39px;
+            font-size: 22px;
+            border-radius: 0;
+            -webkit-transition: all 0.4s ease-out;  
+            transition: all 0.4s ease-out;
+            i {
+                padding-left: 20px;
+            }
+
+            &:hover {
+            background:#000;
+            color:#fff;
+            }
+        }
+    }
+    .sub-footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        ul.info {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul.social-icons {
+            .ul-inline-no-style();
+            padding-top: 20px;
+            li {
+                padding-left: 55px;
+                a {
+                    color: @text-darkgray;
+                }
+            }
+        }
+        .copyright {
+            padding-top: 20px;
+            img {
+                margin-top: -5px;
+                margin-left: 20px;
+            }
+        }
+    }
+}

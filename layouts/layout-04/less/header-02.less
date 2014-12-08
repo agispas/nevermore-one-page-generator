@@ -1,0 +1,119 @@
+/**
+ * Header 02 stylesheet  
+ * */
+
+
+.header-02 {
+    .navbar {
+        margin: 0;
+        background: rgba(0,0,0,0.7);
+        .navbar-brand {
+            padding-top: 10px;
+        }
+    }
+    .nav > li > a {
+        font-family: @navigation-font-family;
+        color: @white;
+        text-transform: normal;
+        background: none;
+        text-decoration: none;
+    }
+    .slide {
+        -webkit-transition: all .25s ease-in-out;
+        -moz-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+    }
+    .slide--reset {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .slide--up {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+}
+.header-02-sub {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    margin-bottom: 125px;
+    .owl-dots {
+        position: absolute;
+        top: 50%;
+        right: 3%;
+        @media only screen and (max-width:480px) {
+            display: none;
+        }
+        .owl-dot {
+            display: block!important;
+        }
+    }
+    .item {
+        position: relative;
+    }
+    #header-2-carousel .owl-item.active .item .caption {
+        opacity: 1;
+    }
+    .ratio {
+        height: 800px;
+        @media only screen and (max-width:480px) {
+            height: 600px;
+        }
+    }
+    .overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background: ;
+        z-index: 99;
+    }
+    .caption {
+        color: @white;
+        opacity: 0;
+        .absolute-centering(@translate: translate(-50%,-50%));
+        z-index: 999;
+        -moz-transition: all 4000ms ease-out;
+        -o-transition: all 4000ms ease-out;
+        -webkit-transition: all 4000ms 275ms ease-out;
+        transition: all 4000ms ease-out;
+        h2 {
+            @media only screen and (max-width:480px) {
+                font-size: 24px;
+            }
+        }
+        h1, h2 {
+            color: @white;
+        }
+        p.lead {
+            font-size: 20px;
+            font-family: @headline-font-family;
+            padding-top: 10px;
+            &:before, &:after {
+                content: "---";
+                letter-spacing: -2px;
+                padding-left: 3px;
+                padding-right: 3px;
+                @media only screen and (max-width:480px) {
+                    display: none;
+                }
+            }
+            @media only screen and (max-width:480px) {
+                font-size: 18px;
+            }
+        }
+    }
+    .scrollDown {
+        position: absolute;
+        bottom: 40px;
+        left: 48%;
+        z-index: 9999;
+    }
+}
+.lavalamp-object {
+    border-bottom: 2px solid @white;
+}

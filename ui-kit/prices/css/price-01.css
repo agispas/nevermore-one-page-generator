@@ -1,0 +1,197 @@
+/**
+ * Price 01 stylesheet  
+ * */
+.price-01 .title {
+  margin-bottom: 100px;
+}
+.price-01 .title h2 {
+  color: #353738;
+  font-weight: bold;
+}
+.price-01 .title h5 {
+  color: #353738;
+}
+.price-01 .title .small-border {
+  width: 10%;
+  border: 2px solid;
+}
+.price-01 .grid-pricing {
+  overflow: hidden;
+}
+.price-01 .box {
+  width: 300px;
+  height: 560px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+  margin-left: 6%;
+  color: #1b1a18;
+}
+@media (max-width: 480px) {
+  .price-01 .box {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .price-01 .box {
+    margin: 0;
+  }
+}
+.price-01 .box .btn-price {
+  background: none;
+  border: 1px solid #4b113a;
+}
+.price-01 .box:first-child {
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .price-01 .box:first-child {
+    margin-left: 0px!important;
+  }
+}
+.price-01 .box:hover {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.price-01 .box h1 {
+  color: #1b1a18;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.price-01 .box h3 {
+  margin: 0;
+  font-weight: 600;
+  width: 100%;
+  color: #1b1a18;
+  padding-top: 80px;
+}
+.price-01 .box h5 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  width: 20%;
+  margin: 0 auto;
+}
+.price-01 .box span {
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding: 5px;
+}
+.price-01 .box h3,
+.price-01 .box span {
+  -webkit-transition: color 0.4s 0.5s;
+  transition: color 0.4s 0.5s;
+}
+.price-01 .box:hover h3,
+.price-01 .box:hover span {
+  color: #1b1a18;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.price-01 .box svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.price-01 .box svg line {
+  stroke-width: 3;
+  stroke: #aba197;
+  fill: none;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+.price-01 .box:hover svg line {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.price-01 .box svg line.top,
+.price-01 .box svg line.bottom {
+  stroke-dasharray: 330 240;
+}
+.price-01 .box svg line.left,
+.price-01 .box svg line.right {
+  stroke-dasharray: 490 400;
+}
+.price-01 .box:hover svg line.top {
+  -webkit-transform: translateX(-600px);
+  transform: translateX(-600px);
+}
+.price-01 .box:hover svg line.bottom {
+  -webkit-transform: translateX(600px);
+  transform: translateX(600px);
+}
+.price-01 .box:hover svg line.left {
+  -webkit-transform: translateY(920px);
+  transform: translateY(920px);
+}
+.price-01 .box:hover svg line.right {
+  -webkit-transform: translateY(-920px);
+  transform: translateY(-920px);
+}
+.price-01 .box h3,
+.price-01 .box span {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  color: #1b1a18;
+}
+.price-01 .box:hover h3,
+.price-01 .box:hover span {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  color: #e75848;
+}
+.price-01 .box svg line {
+  stroke-width: 30;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.price-01 .box:hover svg line {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.price-01 .box:hover svg line {
+  stroke-width: 0;
+}
+.price-01 .box svg line.top,
+.price-01 .box svg line.bottom {
+  stroke-dasharray: 300;
+}
+.price-01 .box svg line.left,
+.price-01 .box svg line.right {
+  stroke-dasharray: 460;
+}
+.price-01 .box:hover svg line.top {
+  -webkit-transform: translateX(-300px);
+  transform: translateX(-300px);
+}
+.price-01 .box:hover svg line.bottom {
+  -webkit-transform: translateX(300px);
+  transform: translateX(300px);
+}
+.price-01 .box:hover svg line.left {
+  -webkit-transform: translateY(460px);
+  transform: translateY(460px);
+}
+.price-01 .box:hover svg line.right {
+  -webkit-transform: translateY(-460px);
+  transform: translateY(-460px);
+}
+.price-01 ul.pricing-features {
+  list-style-type: none;
+  padding: 30px 0px 20px 0px;
+  margin: 0;
+}
+.price-01 ul.pricing-features li {
+  padding-bottom: 10px;
+}

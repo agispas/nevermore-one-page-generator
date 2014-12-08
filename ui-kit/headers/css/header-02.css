@@ -1,0 +1,126 @@
+/**
+ * Header 02 stylesheet  
+ * */
+.header-02 .navbar {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.header-02 .navbar .navbar-brand {
+  padding-top: 10px;
+}
+.header-02 .nav > li > a {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-transform: normal;
+  background: none;
+  text-decoration: none;
+}
+.header-02 .slide {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.header-02 .slide--reset {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.header-02 .slide--up {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.header-02-sub .owl-dots {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+}
+@media only screen and (max-width: 480px) {
+  .header-02-sub .owl-dots {
+    display: none;
+  }
+}
+.header-02-sub .owl-dots .owl-dot {
+  display: block!important;
+}
+.header-02-sub .item {
+  position: relative;
+}
+.header-02-sub #header-2-carousel .owl-item.active .item .caption {
+  opacity: 1;
+}
+.header-02-sub .ratio {
+  height: 800px;
+}
+@media only screen and (max-width: 480px) {
+  .header-02-sub .ratio {
+    height: 600px;
+  }
+}
+.header-02-sub .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: ;
+  z-index: 99;
+}
+.header-02-sub .caption {
+  color: #ffffff;
+  opacity: 0;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  -moz-transition: all 4000ms ease-out;
+  -o-transition: all 4000ms ease-out;
+  -webkit-transition: all 4000ms 275ms ease-out;
+  transition: all 4000ms ease-out;
+}
+@media only screen and (max-width: 480px) {
+  .header-02-sub .caption h2 {
+    font-size: 24px;
+  }
+}
+.header-02-sub .caption h1,
+.header-02-sub .caption h2 {
+  color: #ffffff;
+}
+.header-02-sub .caption p.lead {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+}
+.header-02-sub .caption p.lead:before,
+.header-02-sub .caption p.lead:after {
+  content: "---";
+  letter-spacing: -2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+@media only screen and (max-width: 480px) {
+  .header-02-sub .caption p.lead:before,
+  .header-02-sub .caption p.lead:after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header-02-sub .caption p.lead {
+    font-size: 18px;
+  }
+}
+.header-02-sub .scrollDown {
+  position: absolute;
+  bottom: 40px;
+  left: 48%;
+  z-index: 9999;
+}
+.lavalamp-object {
+  border-bottom: 2px solid #ffffff;
+}

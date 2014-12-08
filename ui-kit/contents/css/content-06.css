@@ -1,0 +1,74 @@
+/**
+ * Content 06 stylesheet  
+ * */
+.content-06 ol.features {
+  border-top: 3px solid #ddd;
+  margin-top: 80px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+.content-06 ol.features li {
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+@media (max-width: 1200px) {
+  .content-06 ol.features li {
+    margin-right: 10px;
+    padding-left: 0px;
+  }
+}
+.content-06 ol.features li p.indicators {
+  display: inline;
+}
+@media only screen and (max-width: 480px) {
+  .content-06 ol.features li p.indicators {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .content-06 ol.features li {
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .content-06 ol.features li {
+    padding-right: 0px;
+  }
+}
+.content-06 ol.features li img {
+  padding-right: 20px;
+}
+.content-06 h1 {
+  font-weight: bold;
+}
+.content-06 .small-border {
+  width: 50%;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content-06 .btn-hallow {
+  display: block;
+  width: 40%;
+  text-align: center;
+  color: #545454;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #aba197;
+}
+@media only screen and (max-width: 480px) {
+  .content-06 .btn-hallow {
+    width: 100%;
+  }
+}
+.content-06 .lavalamp-object {
+  border-top: 3px solid #4b113a;
+  margin-top: -3px;
+}

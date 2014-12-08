@@ -1,0 +1,122 @@
+/**
+ * Footer 03 stylesheet  
+ * */
+.footer-03 {
+  position: relative;
+  padding-top: 125px;
+}
+.footer-03 h2 {
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #353638;
+}
+@media only screen and (max-width: 480px) {
+  .footer-03 .send {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.footer-03 .subscribe {
+  background: #f7f7f7;
+  margin-top: 50px;
+}
+.footer-03 #newsletter .form-group {
+  width: 100%;
+  margin-bottom: -10px;
+}
+.footer-03 #newsletter span.icon i {
+  vertical-align: 0;
+}
+.footer-03 #newsletter input#email {
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  padding: 40px;
+  height: auto;
+  background: transparent;
+  font-size: 22px;
+  display: inline-block;
+  width: 80%;
+}
+.footer-03 #newsletter .btn-subscribe {
+  width: 100%;
+  padding: 39px;
+  font-size: 22px;
+  border-radius: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.footer-03 #newsletter .btn-subscribe i {
+  padding-left: 20px;
+}
+.footer-03 #newsletter .btn-subscribe:hover {
+  background: #000;
+  color: #fff;
+}
+.footer-03 .sub-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-03 .sub-footer ul.info {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-03 .sub-footer ul.social-icons {
+  margin: 0px;
+  list-style: none;
+  padding-top: 20px;
+}
+.footer-03 .sub-footer ul.social-icons:before,
+.footer-03 .sub-footer ul.social-icons:after {
+  content: " ";
+  display: table;
+}
+.footer-03 .sub-footer ul.social-icons:after {
+  clear: both;
+}
+.footer-03 .sub-footer ul.social-icons:before,
+.footer-03 .sub-footer ul.social-icons:after {
+  content: " ";
+  display: table;
+}
+.footer-03 .sub-footer ul.social-icons:after {
+  clear: both;
+}
+.footer-03 .sub-footer ul.social-icons li {
+  float: left;
+  display: block;
+}
+.footer-03 .sub-footer ul.social-icons:before,
+.footer-03 .sub-footer ul.social-icons:after {
+  content: " ";
+  display: table;
+}
+.footer-03 .sub-footer ul.social-icons:after {
+  clear: both;
+}
+.footer-03 .sub-footer ul.social-icons:before,
+.footer-03 .sub-footer ul.social-icons:after {
+  content: " ";
+  display: table;
+}
+.footer-03 .sub-footer ul.social-icons:after {
+  clear: both;
+}
+.footer-03 .sub-footer ul.social-icons li {
+  float: left;
+  display: block;
+}
+.footer-03 .sub-footer ul.social-icons li {
+  padding-left: 55px;
+}
+.footer-03 .sub-footer ul.social-icons li a {
+  color: #282828;
+}
+.footer-03 .sub-footer .copyright {
+  padding-top: 20px;
+}
+.footer-03 .sub-footer .copyright img {
+  margin-top: -5px;
+  margin-left: 20px;
+}

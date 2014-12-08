@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/headers/style.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="../common/css/animations.css">
+
+        <link rel="stylesheet" href="../common/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="../common/css/owl-carousel/owl.theme.default.css">
+        <link rel="stylesheet" href="../common/css/owl-carousel/owl.video.css">
+        
+        <style>
+
+        body {
+
+          padding-top:90px;
+        }
+        .second-nav a{ 
+
+       color: white;
+        }
+
+        .second-nav li.active a { 
+
+
+        background:#019875;
+
+
+        }
+
+
+        .delimeter {margin-top:200px; margin-bottom:200px;}
+
+        .header-02-sub {position:relative;}
+.header-03 .panel-side>ul {
+  padding-top:180px;
+}
+
+
+button#header-01 {position:absolute; right:0px;background:black;
+border: 0; color:white;padding:20px;}
+button#header-02 {position:absolute; right:0px; z-index:9999999;background:black;
+border: 0; color:white;padding:20px;}
+button#header-03 {position:absolute; right:0px; background: black;
+border: 0;color:white;padding:20px;}
+button#header-01:hover,button#header-03:hover,button#header-03:hover {
+  color:blue;
+}
+.modal-content {
+
+padding:4em;
+
+}
+
+.modal-content h3 { 
+font-weight: bold;
+}
+.modal-content p {
+
+  font-size:18px;
+  color:bold;
+}
+
+a.link {color:#428bca;}
+        </style>
+        
+        <script src="../common/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-doc navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" style="padding-top:0;">
+            <li class="active"><a href="#">Overview</a></li>
+             <li><a href="how_to_install.html">How to install</a></li>
+            <li><a href="video_tutorials.html">Video tutorials</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-static-top second-nav" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Components</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li class="active"><a href="headers.html">Headers</a></li>
+             <li><a href="contacts.html">Contents</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="footers.html">Footers</a></li>
+
+
+
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <!-- HEADER-01 CONTENT -->
+  <div class="header-01-sub">
+    
+<!-- Large modal -->
+<button class="btn btn-primary" id="header-01" data-toggle="modal" data-target=".bs-header-01-modal-lg"><i class="fa fa-info-circle fa-4x"></i></button>
+
+<div class="modal fade bs-header-01-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myLargeModalLabel"><strong>Header 01</strong></h4>
+
+        </div>
+
+
+        <h3 >About</h3>
+
+        <p>
+          This header block should be used only once.It contains a navigation bar which, when you scroll down and reach it will stick at the top of the page. You will see this header block in action inside <strong>
+          <a class="link" href="../layouts/layout-01/index.html" target="_blank">"Layout 1"</a></strong>, <strong>"<a class="link" href="../layouts/layout-06/index.html" target="_blank">"Layout 6"</a></strong>.
+
+          <p>This block has a special button called "View Features" which if you click it will jump to the next content block  </p>
+
+        </p>
+
+
+        <h3>Usage</h3>
+
+        <p>
+
+          To use this block you have to copy and paste the following HTML code from here or from the "ui-kit" folder:
+          <pre>
+
+  &lt;!-- HEADER-01 CONTENT --&gt;
+  &lt;div class="header-01-sub" data-scroll-index="0"&gt;
+    &lt;div class="jumbotron"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="slide-left col-sm-6"  data-plugin-options='{"distance":700,"speed":1000}'&gt;
+            &lt;h1&gt;Creative One Page Generator&lt;/h1&gt;
+            &lt;div class="small-border"&gt;&lt;/div&gt;
+            &lt;p class="lead"&gt;
+            The ideal puzzle based tool for creating websites within minutes
+            &lt;/p&gt;
+            &lt;p&gt;&lt;a class="btn btn-simple btn-lg" role="button"&gt;&lt;i class="fa fa-arrow-circle-down fa-2x"&gt;&lt;/i&gt;See Features&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          
+          &lt;!-- CAROUSEL STARTS HERE --&gt;
+          &lt;div class="slide-right col-sm-6" data-plugin-options='{"distance":700,"speed":1000}'&gt;
+            &lt;div  id="header-1-carousel" class="owl-carousel owl-theme"&gt;
+              &lt;div class="item"&gt;
+                &lt;img src="../../common/images/header-01-slide.png" alt="nevermore"&gt;
+              &lt;/div&gt;
+              &lt;div class="item-video"&gt;&lt;a class="owl-video" href="http://vimeo.com/10577584"&gt;&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="item-video"&gt;&lt;a class="owl-video" href="http://www.youtube.com/watch?v=FBu_jxT1PkA"&gt;&lt;/a&gt;&lt;/div&gt;
+              
+            &lt;/div&gt;
+            
+          &lt;/div&gt;
+          &lt;!-- CAROUSEL ENDS HERE --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!-- END HEADER-01 CONTENT --&gt;
+  
+  
+  &lt;!-- HEADER-01 NAVIGATION BAR --&gt;
+  
+  &lt;div class="header-01"&gt;
+    &lt;div class="navbar navbar-simple" role="navigation"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="navbar-header"&gt;
+          &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+          &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;a class="navbar-brand" href="#"&gt;&lt;img src="../../common/images/logo-2.png" alt="nevermore"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="navbar-collapse collapse"&gt;
+          &lt;ul class="nav navbar-nav navbar-right"&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="0"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="1"&gt;Features&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="2"&gt;Prices&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="3"&gt;Contact&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END HEADER-01 NAVIGATION BAR --&gt;
+
+
+          </pre>
+        </p>
+
+        <h2>How to modify</h2>
+
+        <p>
+
+            Inside the <code>&lt;div class="jumbotron"&gt;...&lt;/div&gt;</code> you can modify the existing content with whatever you want.
+
+
+        </p>
+
+        <p>
+
+           Inside  <code>&lt;div  id="header-1-carousel" class="owl-carousel owl-theme"&gt; &lt;/div&gt;</code> are the carousel items like images,videos...
+</p>
+        <p>You can control some settings/effects via "main.js" file which you can find inside "common > js" folders.
+           Here are the settings for the carousel:</p>
+           
+<pre>
+$("#header-1-carousel").owlCarousel({
+    items:1,
+    video:true,
+    nav:false,
+    videoHeight:600
+
+});
+</pre>
+
+<strong>We strongly suggest to not modify any of these settings unless you have some coding experience because it may break the layout.</strong>
+
+<p>However, if you want to learn more about the carousel functionality and other options you can check out their 
+<a class="link" href="http://www.owlcarousel.owlgraphic.com/">website for more details.</a></p>
+
+<p>
+  If you want to change the background color of the <code>&lt;div class="jumbotron"&gt;...&lt;/div&gt;</code> 
+  You will find the style inside <strong>header-01.css<strong> or <strong>header-01.less</strong>: <pre>
+  .header-01-sub .jumbotron {
+  margin: 0;
+  padding-top: 98px;
+  padding-bottom: 98px;
+  background: #bebaae;
+}</pre>
+</p>
+
+<p>
+   If you want to change the background color look for <strong>.jumbotron</strong> class and from there it's pretty straightforward.
+</p>
+
+
+        
+    </div>
+  </div>
+</div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Creative One Page Generator</h1>
+            <div class="small-border"></div>
+            <p class="lead">
+             The ideal puzzle based tool for creating websites within minutes
+            </p>
+            <p><a class="btn btn-simple btn-lg" role="button"><i class="fa fa-arrow-circle-down fa-2x"></i>See Features</a></p>
+          </div>
+          
+          <!-- CAROUSEL STARTS HERE -->
+          <div class="col-sm-6">
+            <div  id="header-1-carousel" class="owl-carousel owl-theme">
+    <div class="item">
+<img src="../common/images/header-01-slide.png">
+    </div>
+    <div class="item-video"><a class="owl-video" href="http://vimeo.com/10577584"></a></div>
+    <div class="item-video"><a class="owl-video" href="http://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
+   
+</div>
+
+            
+          </div>
+          <!-- CAROUSEL ENDS HERE --> 
+
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- END HEADER-01 CONTENT -->
+    
+    <!-- HEADER-01 NAVIGATION BAR -->
+    
+    <div class="header-01">
+     <div class="navbar navbar-simple" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="../common/images/logo-3.png" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">How it works</a>
+                    </li>
+                </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    </div>
+
+    <!-- END HEADER-01 NAVIGATION BAR -->
+
+<div class="delimeter"></div>
+
+
+<!-- HEADER-02 NAVIGATION BAR -->
+    
+    <div class="header-02">
+     <!-- Large modal -->
+<button class="btn btn-primary" id="header-02" data-toggle="modal" data-target=".bs-header-02-modal-lg"><i class="fa fa-info-circle fa-4x"></i></button>
+
+<div class="modal fade bs-header-02-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myLargeModalLabel"><strong>Header 02</strong></h4>
+
+        </div>
+
+
+        <h3>About</h3>
+
+        <p>
+          This header block should be used only once.It contains a navigation bar which, when you scroll down will slowly dissapear and when you scroll up will appear. You will see this header block in action inside <strong><a class="link" href="../layouts/layout-03/index.html" target="_blank">"Layout 3"</a></strong>, <strong><a class="link" href="../layouts/layout-04/index.html" target="_blank">"Layout 4"</a></strong>.
+
+          <p>This block has a special button called "View Features" which if you click it will jump to the next content block</p>
+
+        </p>
+
+
+        <h3>Usage</h3>
+
+        <p>
+
+          To use this block you have to copy and paste the following HTML code from here or from the "ui-kit" folder:
+          <pre>
+
+&lt;!-- HEADER-02 NAVIGATION BAR --&gt;
+  
+  &lt;div class="header-02"&gt;
+    &lt;div class="navbar navbar-simple navbar-fixed-top" role="navigation"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="navbar-header"&gt;
+          &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+          &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;a class="navbar-brand" href="#"&gt;&lt;img src="../../common/images/logo-2.png" alt="nevermore"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="navbar-collapse collapse"&gt;
+          &lt;ul class="nav navbar-nav navbar-right lava"&gt;
+            &lt;li class="active"&gt;
+              &lt;a href="#" data-scroll-nav="0"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="1"&gt;Features&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="2"&gt;Showcase&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="3"&gt;Prices&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href="#" data-scroll-nav="4"&gt;Contact&lt;/a&gt;
+            &lt;/li&gt;
+            
+          &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END HEADER-02 NAVIGATION BAR --&gt;
+    
+    &lt;!-- HEADER-02 CONTENT --&gt;
+    &lt;div class="header-02-sub"&gt;
+      &lt;!-- SLIDER STARTS HERE --&gt;
+      &lt;div id="header-2-carousel" class="owl-carousel owl-theme text-center"&gt;
+        
+        &lt;div class="slide-top item ratio" data-plugin-options='{"distance":100,"speed":1000}'&gt;
+          &lt;div class="overlay"&gt;&lt;/div&gt;
+          &lt;img src="../../common/images/header-02-slide1.jpg" alt="The Last of us"&gt;
+          
+          &lt;!-- CAPTION STARTS HERE --&gt;
+          &lt;div class="caption"&gt;
+            &lt;h1&gt;Meet &lt;strong&gt;Nevermore!&lt;/strong&gt;&lt;/h1&gt;
+            &lt;h2&gt;/creative one page generator.&lt;/h2&gt;
+            &lt;p class="lead"&gt;
+            
+            The ideal puzzle based tool for creating websites within minutes
+            &lt;/p&gt;
+            
+          &lt;/div&gt;
+          &lt;!-- CAPTION STARTS HERE --&gt;
+        &lt;/div&gt;
+        &lt;div class="item ratio"&gt;
+          &lt;div class="overlay"&gt;&lt;/div&gt;
+          &lt;img src="../../common/images/header-02-slide2.jpg" alt="nevermore"&gt;
+          
+          &lt;!-- CAPTION STARTS HERE --&gt;
+          &lt;div class="caption"&gt;
+            
+            &lt;h1&gt;&lt;strong&gt;PUZZLE&lt;/strong&gt; BLOCKS&lt;/h1&gt;
+            &lt;p class="lead"&gt;
+            
+            You can easily combine  ready made blocks in order to create your website. It's straightforward!
+            &lt;/p&gt;
+            
+          &lt;/div&gt;
+          &lt;!-- CAPTION ENDS HERE --&gt;
+        &lt;/div&gt;
+        &lt;div class="item ratio"&gt;
+          &lt;div class="overlay"&gt;&lt;/div&gt;
+          &lt;img src="../../common/images/header-02-slide3.jpg" alt="nevermore"&gt;
+          
+          &lt;!-- CAPTION STARTS HERE --&gt;
+          &lt;div class="caption"&gt;
+            
+            &lt;h1&gt;&lt;strong&gt;MULTI PURPOSE&lt;/strong&gt; Components&lt;/h1&gt;
+            &lt;p class="lead"&gt;
+            There are a lot of different multi useful compononents like headers, contents, projects, contacts, footers, which you can combine in variety of ways.
+            &lt;/p&gt;
+            
+          &lt;/div&gt;
+          &lt;!-- CAPTION ENDS HERE --&gt;
+        &lt;/div&gt;
+        
+      &lt;/div&gt;
+      &lt;!-- SLIDER ENDS HERE --&gt;
+      &lt;!-- SCROLL DOWN BUTTON--&gt;
+      &lt;div class="scrollDown"&gt;
+        &lt;a href="#"&gt;&lt;img alt="nevermore" src="../../common/images/scrollDown.png"&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;!-- END HEADER-02 CONTENT --&gt;
+
+
+          </pre>
+        </p>
+
+        <h2> How to modify </h2>
+
+        <p>
+
+            Inside the <code>&lt;div id="header-2-carousel"&gt;...&lt;/div&gt;</code> you can modify the existing content with whatever you want.
+
+
+        </p>
+        
+        <p>Inside the <code>&lt;div class="item ratio"&gt;...&lt;/div&gt;</code> you can modify the image and the caption for each slide.</p>
+
+
+        <p>You can control some settings/effects via "main.js" file which you can find inside "common > js" folders.
+           Here are the settings for the carousel:</p>
+           
+<pre>
+$("#header-2-carousel").owlCarousel({
+    items:1,
+    animateOut: 'fadeOut',
+   
+
+  
+});
+</pre>
+
+<p>"fadeOut" value is the only built-in CSS animate style. However there are tons of additional CSS animations that you can use in Owl. Simply download <a href="http://daneden.github.io/animate.css/">animate.css</a> library and you are ready to extend Owl with new fancy transitions.</p>
+<strong>We strongly suggest to not modify any of these settings unless you have some coding experience because it may break the layout.</strong>
+
+<p>However, if you want to learn more about the carousel functionality and other options you can check out their 
+<a class="link" href="http://www.owlcarousel.owlgraphic.com/">website for more details</a></p>
+
+
+
+
+        
+    </div>
+  </div>
+</div>
+     <div class="navbar navbar-simple navbar-static-top" role="navigation" style="background:black;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="../common/images/logo-2.png" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right lava">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Showcase</a>
+                    </li>
+                     <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    
+
+
+                </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    </div>
+
+    <!-- END HEADER-01 NAVIGATION BAR -->
+    
+
+  <!-- HEADER-02 CONTENT -->
+  <div class="header-02-sub">
+
+    <!-- SLIDER STARTS HERE -->
+    <div id="header-2-carousel" class="owl-carousel owl-theme text-center">
+ 
+              <div class="item ratio">
+                <div class="overlay"></div>
+
+                <img src="../common/images/header-02-slide1.jpg" alt="The Last of us">
+                <div class="caption">
+                 <h1>Meet <strong>Nevermore!</strong></h1>
+                 <h2>/creative one page generator.</h2>
+                 <p class="lead">
+                
+                The ideal puzzle based tool for creating websites within minutes 
+                </p>
+
+
+  
+                </div>               
+              </div>
+             <div class="item ratio">
+                <div class="overlay"></div>
+                <img src="../common/images/header-02-slide2.jpg" alt="The Last of us">
+                 <div class="caption">
+                 
+                 <h1><strong>PUZZLE</strong> BLOCKS</h1>
+                <p class="lead">
+                 
+                  You can easily combine  ready made blocks in order to create your website. It's straightforward!
+                 </p>
+  
+                </div>          
+              </div>
+              <div class="item ratio">
+                 <div class="overlay"></div>
+                <img src="../common/images/header-02-slide3.jpg" alt="The Last of us">
+                <div class="caption">
+                 
+                 <h1><strong>MULTI PURPOSE</strong> Components</h1>
+                 <p class="lead">  
+                 There are a lot of different multi useful compononents like headers, contents, projects, contacts, footers, which you can combine in variety of ways.
+                 </p>
+  
+                </div>     
+              </div>
+ 
+            </div>
+      <!-- SLIDER ENDS HERE -->      
+  <div class="scrollDown">
+    <a href="#"><img src="../common/images/scrollDown.png"></a>
+</div>
+
+  </div>
+    
+  <!-- END HEADER-02 CONTENT -->
+    <div class="delimeter"></div>
+
+
+      <!-- HEADER-03 NAVIGATION BAR -->
+    
+    <div class="header-03">
+     
+<div class="modal fade bs-header-03-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myLargeModalLabel"><strong>Header 03</strong></h4>
+
+        </div>
+
+
+        <h3>About</h3>
+
+        <p>
+          This header block should be used only once.It contains a special navigation bar which will nicely slide in when you click on the menu icon. You will see this header block in action inside <strong><a class="link" href="../layouts/layout-02/index.html" target="_blank">"Layout 2"</a></strong>, <strong><a class="link" href="../layouts/layout-05/index.html" target="_blank">"Layout 5"</a></strong>.
+        </p>
+
+       
+
+
+        <h3>Usage</h3>
+
+        <p>
+
+          To use this block you have to copy and paste the following HTML code from here or from the "ui-kit" folder:
+          <pre>
+
+&lt;!-- HEADER-03 NAVIGATION BAR --&gt;
+  
+  &lt;div class="header-03"&gt;
+    &lt;div class="navbar navbar-simple navbar-fixed-top"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="navbar-side"&gt;
+          
+          &lt;a class="navbar-brand" href="#"&gt;&lt;img src="../../common/images/logo-3.png" alt="nevermore"&gt;&lt;/a&gt;
+          
+          &lt;!-- TOGGLE MENU --&gt;
+          &lt;a href="#menu" class="menu-link" id="nav-icon3"&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;span&gt;&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;nav id="menu" class="panel-side" role="navigation"&gt;
+      
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a class="side-menu" href="#" data-scroll-nav="0"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="side-menu" href="#" data-scroll-nav="1"&gt;Features&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="side-menu" href="#" data-scroll-nav="2"&gt;Works&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="side-menu" href="#" data-scroll-nav="3"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class="address"&gt;
+        &lt;li&gt; 2217 14th St NW, Washington,&lt;/li&gt;
+        &lt;li&gt;+1 202-905-2729&lt;/li&gt;
+        &lt;li&gt;+4 202-138-9326&lt;/li&gt;
+        &lt;li&gt;hello@outboxvision.co&lt;/li&gt;
+      &lt;/ul&gt;
+      
+      &lt;ul class="social"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-facebook fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-twitter fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-google-plus fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+      
+    &lt;/nav&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;!-- END HEADER-03 NAVIGATION BAR --&gt;
+  &lt;!-- HEADER-03 CONTENT --&gt;
+  &lt;div class="header-03-sub  v-center"&gt;
+    &lt;div&gt;
+      
+      &lt;div class="slide-top container" data-plugin-options='{"speed":1000}'&gt;
+        
+        &lt;!-- SLOGAN CONTENT --&gt;
+        &lt;div class="slogan text-center"&gt;
+          
+          &lt;h1&gt;DRAG & DROP GENERATOR&lt;/h1&gt;
+          &lt;p class="lead"&gt;We've made it straightforward for you.
+          All you have to do is drag and drop the components as you like.
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;!-- END SLOGAN CONTENT --&gt;
+        &lt;!-- SCROLL DOWN BUTTON --&gt;
+        &lt;a class="scrollDown" href="#"&gt;
+          &lt;img alt="nevermore" src="../../common/images/scrollDown-02.png"&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;!-- END HEADER-03 CONTENT --&gt;
+  
+
+          </pre>
+        </p>
+
+        <h2> How to modify </h2>
+
+       
+        <p>You can easily modify how the navigation will behave via "main.js" file:</p>
+        
+        <pre>
+
+
+    $('.menu-link').bigSlide({
+
+    side: 'right', // here you can choose where the menu will be place (left or right).
+    menuWidth: '22.625em' 
+      });
+
+        </pre>
+
+        <strong>We strongly suggest to not modify any of these settings unless you have some coding experience because it may break the layout.</strong>
+
+
+        <p>Inside the <code>&lt;div class="slogan"&gt;...&lt;/div&gt;</code> you cand modify the content with whatever you want. </p>
+
+
+<p>You can change the background image via CSS or LESS. Open "header-03.css" or "header-03.less" and look for 
+  <pre>.header-03-sub {
+  background: url(../../../common/images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+}
+</pre> and there you will find the background property. </p>
+
+          <p>This block has a special button  which if you click it will jump to the next content block</p>
+
+
+
+
+
+
+        
+    </div>
+  </div>
+</div>
+
+
+     <div class="navbar navbar-simple navbar-static-top" style="top:130px;">
+      <!-- Large modal -->
+<button class="btn btn-primary" id="header-03" data-toggle="modal" data-target=".bs-header-03-modal-lg"><i class="fa fa-info-circle fa-4x"></i></button>
+
+
+
+      <div class="container">
+        <div class="navbar-side">
+          
+          <a class="navbar-brand" href="#"><img src="../common/images/logo-3.png" alt=""></a>
+          
+          <!-- TOGGLE MENU -->
+         <a href="#menu" class="menu-link" id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
+  </div>
+        </div>
+      </div>
+    
+    <nav id="menu" class="panel-side" role="navigation">
+        
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="address">
+          <li> 2217 14th St NW, Washington,</li>
+          <li>+1 202-905-2729</li>
+          <li>+4 202-138-9326</li>
+
+          <li>hello@outboxvision.co</li>
+        </ul>
+        
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+        
+        </ul>
+      
+    </nav>
+
+    </div>
+    
+    </div>
+
+    <!-- END HEADER-01 NAVIGATION BAR -->
+
+  <!-- HEADER-03 CONTENT -->
+  <div class="header-03-sub  v-center">
+    <div>
+      
+      <div class="container">
+      
+        <div class="slogan text-center">
+          
+          <h1>DRAG & DROP GENERATOR</h1>
+          <p class="lead">We've made it straightforward for you. 
+              All you have to do is drag and drop the components as you like.
+          </p>
+
+        </div>
+    
+     <a class="scrollDown" href="#">
+<img src="../common/images/scrollDown-02.png">
+    </a>
+      </div> 
+
+    </div>
+
+   
+  </div>
+    
+    <!-- END HEADER-03 CONTENT -->
+
+   <script src="../common/js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../common/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="../common/js/vendor/bootstrap.min.js"></script>
+        <script src="../common/js/vendor/jquery.sticky.js"></script>
+        <script src="../common/js/vendor/owl.carousel.js"></script>
+        <script src="../common/js/vendor/headroom.min.js"></script>
+        <script src="../common/js/vendor/jquery.big-slide.js"></script>
+        <script src="../common/js/vendor/venobox.min.js"></script>
+        <script src="../common/js/vendor/jquery.shuffle.min.js"></script>
+        <script src="../common/js/vendor/jquery.easing.1.3.js"></script>
+        <script src="../common/js/vendor/jquery.lavalamp.min.js"></script>
+        <script src="../common/js/vendor/imgLiquid-min.js"></script>
+        <script src="../common/js/vendor/scrollIt.min.js"></script>
+
+        <script src="../common/js/vendor/jquery.fadethis.min.js"></script>
+
+
+
+
+        <script src="../common/js/main.js"></script>
+        
+    </body>
+</html>

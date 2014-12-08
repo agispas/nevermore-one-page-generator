@@ -1,0 +1,112 @@
+/**
+ * Content 07 stylesheet  
+ * */
+.content-07 .title {
+  margin-bottom: 80px;
+}
+.content-07 .title h1 {
+  font-weight: bold;
+}
+.content-07 .iconmelon,
+.content-07 .im {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: block;
+  margin: 0 auto;
+  fill: #000000;
+}
+.content-07 .iconmelon:after,
+.content-07 .im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.content-07 .item {
+  height: 420px;
+  padding-top: 80px;
+  border-top: 1px solid #ddd;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+}
+.content-07 .item:hover {
+  background: #ddd;
+}
+.content-07 .item:nth-child(-n+3) {
+  border-top: none;
+}
+.content-07 .item:nth-child(3n-1),
+.content-07 .item:nth-child(3n-2) {
+  box-shadow: 1px 0 0 #ddd;
+}
+.content-07 .icon {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+}
+.content-07 h3.title {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+  padding-top: 50px;
+}
+.content-07 h3.title:before {
+  content: '';
+  position: absolute;
+  background: #545454;
+  width: 160px;
+  height: 6px;
+  top: 30px;
+  left: 50%;
+  margin: -10px 0 0 -80px;
+  -webkit-transition: margin-top 0.2s;
+  -moz-transition: margin-top 0.2s;
+  transition: margin-top 0.2s;
+}
+.content-07 span.category {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #4b113a;
+  -webkit-transform: translateY(10px);
+  -moz-transform: -moz-translateY(10px);
+  -ms-transform: -ms-translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  -webkit-transition: transform 0.3s,opacity 0.2s;
+}
+.content-07 .item:hover span.category {
+  opacity: 1;
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+.content-07 .item:hover .icon {
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.content-07 .item:hover .icon:before,
+.content-07 .item:hover h3.title {
+  color: #4b113a;
+}
+.content-07 .item:hover h3.title {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+}
+.content-07 .item:hover h3.title:before {
+  background: #fff;
+  margin-top: 80px;
+}

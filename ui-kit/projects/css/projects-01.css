@@ -1,0 +1,73 @@
+/**
+ * Project 01 stylesheet  
+ * */
+.projects-01 .no-padding-left {
+  padding-left: 0px;
+}
+@media (max-width: 480px) {
+  .projects-01 .no-padding-left {
+    padding-left: 15px;
+  }
+}
+.projects-01 .no-padding-right {
+  padding-right: 0;
+  padding-left:0;
+}
+@media (max-width: 480px) {
+  .projects-01 .no-padding-right {
+    padding-right: 15px;
+  }
+}
+.projects-01 .item img {
+  width: 100%;
+}
+.projects-01 .content {
+  padding: 90px 30px 0px 30px;
+}
+@media (max-width: 480px) {
+  .projects-01 .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .projects-01 .content {
+    padding-top: 10px;
+  }
+}
+.projects-01 .content h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.projects-01 .content .small-border {
+  width: 10%;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+.projects-01 .owl-theme .owl-nav [class*='owl-'] {
+  font-size: 100px;
+  background: transparent;
+  opacity: 0;
+  transition: 0.6s ease-in-out;
+}
+.projects-01 .owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent;
+  color: #4b113a;
+}
+.projects-01 #portfolio-1:hover .owl-nav [class*='owl-'],
+.projects-01 #portfolio-2:hover .owl-nav [class*='owl-'] {
+  opacity: 1;
+}
+.projects-01 .owl-nav {
+  margin-top: 0px!important;
+}
+.projects-01 .owl-nav .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.projects-01 .owl-nav .owl-next {
+  position: absolute;
+  top: 30%;
+  right: 0;
+}

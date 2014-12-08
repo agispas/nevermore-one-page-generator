@@ -1,0 +1,211 @@
+/**
+ * Header 03 stylesheet  
+ * */
+@media only screen and (max-width: 480px) {
+  .header-03 a.navbar-brand {
+    display: none;
+  }
+}
+.header-03 .panel-side {
+  position: fixed;
+  right: -22.625em;
+  width: 22.625em;
+}
+
+.nav-black {
+        background:black;
+        -webkit-transition: all 0.7s ease-out;  
+          transition: all 0.7s ease-out;  
+    }
+    
+@media only screen and (max-width: 480px) {
+  .header-03 .panel-side {
+    width: 20em!important;
+  }
+}
+.header-03 .panel-side > ul {
+  background: #000;
+  margin: 0px;
+  list-style: none;
+  padding: 120px 50px 120px 50px;
+}
+.header-03 .panel-side > ul:before,
+.header-03 .panel-side > ul:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul:after {
+  clear: both;
+}
+.header-03 .panel-side > ul:before,
+.header-03 .panel-side > ul:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul:after {
+  clear: both;
+}
+.header-03 .panel-side > ul:before,
+.header-03 .panel-side > ul:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul:after {
+  clear: both;
+}
+.header-03 .panel-side > ul:before,
+.header-03 .panel-side > ul:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul:after {
+  clear: both;
+}
+@media only screen and (max-width: 480px) {
+  .header-03 .panel-side > ul {
+    padding: 60px 50px 60px 50px;
+  }
+}
+.header-03 .panel-side > ul > li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.header-03 .panel-side > ul > li > a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  transition: 0.6s ease;
+}
+.header-03 .panel-side > ul > li > a:hover {
+  color: #4b113a;
+}
+.header-03 .panel-side > ul.address {
+  padding-top: 0px;
+  color: #ffffff;
+}
+.header-03 .panel-side > ul.social {
+  padding-top: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.header-03 .panel-side > ul.social:before,
+.header-03 .panel-side > ul.social:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul.social:after {
+  clear: both;
+}
+.header-03 .panel-side > ul.social:before,
+.header-03 .panel-side > ul.social:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul.social:after {
+  clear: both;
+}
+.header-03 .panel-side > ul.social li {
+  float: left;
+  display: block;
+}
+.header-03 .panel-side > ul.social:before,
+.header-03 .panel-side > ul.social:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul.social:after {
+  clear: both;
+}
+.header-03 .panel-side > ul.social:before,
+.header-03 .panel-side > ul.social:after {
+  content: " ";
+  display: table;
+}
+.header-03 .panel-side > ul.social:after {
+  clear: both;
+}
+.header-03 .panel-side > ul.social li {
+  float: left;
+  display: block;
+}
+.header-03 .panel-side > ul.social > li {
+  padding-left: 55px;
+}
+@media (max-width: 500px) {
+  .header-03 .panel-side > ul.social > li {
+    padding-left: 45px;
+  }
+}
+.header-03 .panel-side > ul.social > li > a {
+  font-size: 1rem;
+}
+.header-03 .menu-link {
+  float: right;
+  position: relative;
+  z-index: 99999;
+}
+@media only screen and (max-width: 480px) {
+  .header-03 .menu-link {
+    float: none;
+    text-align: center;
+  }
+}
+.header-03-sub {
+  padding-bottom: 70px;
+  background: url(../../../common/images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+}
+.header-03-sub.v-center,
+.header-03-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-03-sub.v-center > div,
+.header-03-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+@media only screen and (max-width: 480px) {
+  .header-03-sub {
+    height: 600px;
+  }
+}
+.header-03-sub .slogan {
+  width: 60%;
+  margin: 0 auto;
+  color: #ffffff;
+  border: 8px solid #ffffff;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+@media (max-width: 480px) {
+  .header-03-sub .slogan {
+    width: 90%;
+  }
+}
+.header-03-sub .slogan h1 {
+  font-weight: bold;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .header-03-sub .slogan h1 {
+    font-size: 32px;
+  }
+}
+.header-03-sub .slogan p.lead {
+  font-size: 18px;
+}
+.header-03-sub a.scrollDown {
+  display: block;
+  position: relative;
+  top: 11em;
+  text-align: center;
+}

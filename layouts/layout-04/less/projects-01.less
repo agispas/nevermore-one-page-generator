@@ -1,0 +1,68 @@
+/**
+ * Project 01 stylesheet  
+ * */
+
+ .projects-01 {
+    .no-padding-left {
+        padding-left: 0px;
+        @media (max-width:@screen-xs-min) {
+            padding-left: 15px;
+        }
+    }
+    .no-padding-right {
+        padding-right: 0;
+        @media (max-width:@screen-xs-min) {
+            padding-right: 15px;
+        }
+    }
+    .item {
+        img {
+            width: 100%;
+        }
+    }
+    .content {
+        padding: 90px 30px 0px 30px;
+        @media (max-width:@screen-xs-min) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        @media (max-width:@screen-lg-min) {
+            padding-top: 10px;
+        }
+        h2 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .small-border {
+            width: 10%;
+            border: 2px solid;
+            margin-bottom: 20px;
+        }
+    }
+    .owl-theme .owl-nav [class*='owl-'] {
+        font-size: 50px;
+        background: transparent;
+        opacity: 0;
+        transition: 0.6s ease-in-out;
+        &:hover {
+            background: transparent;
+            color: @headline-purple;
+        }
+    }
+    #portfolio-1:hover .owl-nav [class*='owl-'], #portfolio-2:hover .owl-nav [class*='owl-'] {
+        opacity: 1;
+    }
+    .owl-nav {
+        margin-top: 0px!important;
+        .owl-prev,  {
+            position: absolute;
+            top: 35%;
+            left: 0;
+        }
+        .owl-next {
+            position: absolute;
+            top: 35%;
+            right: 0;
+        }
+    }
+}

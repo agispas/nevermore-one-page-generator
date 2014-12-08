@@ -1,0 +1,67 @@
+/**
+ * Project 02 stylesheet  
+ * */
+
+ .projects-02 {
+    overflow: hidden;
+    figure {
+        position: relative;
+        height: 300px;
+        img {
+            width: 100%;
+        }
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(75,17,58,0.6);
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        .center {
+            .absolute-centering(@translate: translate(-50%,-50%));
+            h1 {
+                display: inline;
+                padding-right: 6em;
+                color: @white;
+            }
+        }
+    }
+    .project:hover .overlay {
+        opacity: 1;
+    }
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .load-more {
+        background: gainsboro;
+        -webkit-transition: 0.5s ease-in;
+        -moz-transition: 0.5s ease-in;
+        transition: 0.5s ease-in;
+        color: @headline-purple;
+        padding-bottom: 60px;
+        &:hover {
+            background: rgba(75,17,58,0.6);
+        }
+        span.icon {
+            display: block;
+            position: relative;
+            top: -30px;
+            z-index: 2;
+        }
+        .btn-simple {
+            padding: 0;
+            background: none;
+            width: 100%;
+            font-size: 22px;
+        }
+    }
+    .hide-project {
+        display: none;
+    }
+}

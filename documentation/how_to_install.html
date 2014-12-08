@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Overview</a></li>
+             <li class="active"><a href="#contact">How to install</a></li>
+            <li><a href="#about">Video tutorials</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-static-top second-nav" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Components</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li ><a href="headers.html">Headers</a></li>
+             <li><a href="contents.html">Contents</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="footers.html">Footers</a></li>
+
+
+
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        
+        <div class="title col-md-12">
+
+          <h1>Installation</h1>
+
+        </div>
+
+        <div class="content col-md-12">
+
+          <p class="lead">
+
+            Inside the downloaded package you wil find this:
+
+          </p>
+          <img src="img/main-folders.jpg">
+
+          <p class="lead">
+
+            As you see, there are two main folders <strong>"CODE"</strong> and <strong>"PSD"</strong>
+
+
+          </p>
+
+           <h3>CODE</h3>
+
+          <p class="lead">
+          <ul>
+
+            <li><strong>"common"</strong> - contains all the necessary files for the framework, like IMAGES used by all components, FONTS, JAVASCRIPT files, CSS and LESS files.
+            
+              <p style="padding-top:5px;" ><strong>Basically, these files are the core of the framework. We strongly suggest to not modify any of these files unless you have experience with HTML/CSS/JAVASCRIPT.</strong></p>
+            </li>
+
+
+            <li><strong>"layouts"</strong> - contains six ready made demos picked by us for the purpose of demonstrantion of what you can achieve using "Nevermore Generator"
+
+            </li>
+
+            <li><strong>"ui-kit"</strong> - contains all the ready coded components like headers, contents, projects, teams, prices, contacts, footers.
+
+
+            </li>
+
+          </ul>
+           
+
+          </p>
+
+            <h3>PSD</h3>
+
+        <p class="lead">
+          <ul>
+
+            <li><strong>"ui-kit"</strong> - contains all PSD files of the components like headers, contents, projects, teams, prices, contacts, footers.
+            
+            </li>
+
+
+            <li><strong>"layouts"</strong> - contains six ready made PSD demos picked by us for the purpose of demonstrantion of what you can achieve using "Nevermore Generator"
+
+            </li>
+
+        
+
+          </ul>
+           
+
+          </p>
+
+
+      <div class="begin">
+      <h2>Let's begin!</h2>
+
+      <p class="lead">
+
+        If you have no experience with "LESS" you can use "CSS", you will find these two inside the "ui-kit" folder. 
+        In order to start you need to put the following code into your HTML file:
+
+      <pre class="prettyprint">
+&lt;!-- this code between &lt;head&gt; ... &lt;/head&gt; --&gt;
+
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/style.css"&gt;
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/animations.css"&gt;
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/owl-carousel/owl.carousel.css"&gt;
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/owl-carousel/owl.theme.default.css"&gt;
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/owl-carousel/owl.video.css"&gt;
+  &lt;link rel="stylesheet" href="(way to to the framework folder)/common/css/venobox/venobox.css"&gt;
+  &lt;script src="(way to to the framework folder)/common/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- end --&gt;
+
+&lt;!-- this code directly before &lt;/body&gt; --&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery-1.11.0.min.js"&gt;&lt;/script&gt;
+   &lt;script&gt;window.jQuery || document.write('&lt;script src="(way to to the framework folder)/js/vendor/jquery-1.11.0.min.js"&gt;&lt;\/script&gt;')&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/bootstrap.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.sticky.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/owl.carousel.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/headroom.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.big-slide.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/venobox.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.shuffle.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.easing.1.3.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.lavalamp.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/imgLiquid-min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/scrollIt.min.js"&gt;&lt;/script&gt; 
+   &lt;script src="(way to to the framework folder)/js/vendor/waypoints.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/retina.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.fadethis.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.form.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/vendor/jquery.validate.min.js"&gt;&lt;/script&gt;
+   &lt;script src="(way to to the framework folder)/js/main.js"&gt;&lt;/script&gt; 
+   &lt;script&gt;$(window).fadeThis({reverse:false});&lt;/script&gt;
+</pre>
+
+
+
+
+      </p>
+
+      <p>You will also find these inside "skeleton" folder inside "layouts".</p>
+
+      <p class="lead" style="margin-top:20px;margin-bottom:20px;">Next you have to insert the styles for the components you want to use:
+
+
+<pre class="prettyprint">
+&lt;!-- headers - let's say you want to use header-01 --&gt;
+
+&lt;link rel="stylesheet" href="(way to the framework folder)/ui-kit/headers/css/header-01.css"&gt;
+&lt;!-- contents - let's say you want to use content-02 --&gt;
+
+&lt;link rel="stylesheet" href="(way to the framework folder)/ui-kit/contents/css/content-02.css"&gt;
+&lt;!-- projects - let's say you want to use projects-03 --&gt;
+
+&lt;link rel="stylesheet" href="(way to the framework folder)/ui-kit/projects/css/projects-03.css"&gt;
+
+&lt;!-- teams - let's say you want to use team-01 --&gt;
+
+&lt;link rel="stylesheet" href="(way to the framework folder)/ui-kit/teams/css/team-01.css"&gt;
+
+
+
+
+
+</pre>
+
+
+
+      </p>
+
+
+
+
+<h2>"LESS" Version</h2>
+
+<p class="lead">
+
+Using LESS it's even simpler, the first step is the same as in the CSS version.
+
+</p>
+
+<p class="lead">
+
+Second step. In your main '.less' file add the following code:
+
+
+<pre class="prettyprint">
+@import "(way to to the framework folder)/less/bootstrap/bootstrap.less";
+@import "(way to to the framework folder)/less/font-awesome/font-awesome.less";
+@import "(way to to the framework folder)/less/variables.less";
+@import "(way to the framework folder/less/mixins.less";
+@import "(way to to the framework folder)/less/global.less";
+
+&lt;!-- headers - let's say you want to use header-01 --&gt;
+@import "(way to the framework folder)/ui-kit/headers/less/header-01.less";
+
+&lt;!-- teams - let's say you want to use team-01 --&gt;
+@import "(way to the framework folder)/ui-kit/teams/less/team-01.less";
+
+
+@import "../(way to to the framework folder)/less/navbar.less";
+@import "../(way to to the framework folder)/less/header.less";
+
+
+
+
+
+</pre>
+
+
+
+
+
+
+
+</p>
+
+<p class="lead">
+
+The last step is the same as in the CSS version
+
+</p>
+
+<p class="lead">
+If you don't understand exactly how this works you can take a look inside the "layouts" folder. There you will find, for example "Layout-01" and inside that folder you have another folder called "LESS" and there you will find exactly how it's working.
+
+</p>
+
+
+  </div>
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+                <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

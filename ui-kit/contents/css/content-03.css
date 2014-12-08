@@ -1,0 +1,13 @@
+/**
+ * Content 03 stylesheet  
+ * */
+.content-03 .feature:first-child {
+  padding-bottom: 100px;
+}
+.content-03 .padding {
+  padding-bottom: 30px;
+}
+.content-03 h2 {
+  color: #4b113a;
+  font-weight: bold;
+}

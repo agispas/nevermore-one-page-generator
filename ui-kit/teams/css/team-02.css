@@ -1,0 +1,241 @@
+/**
+ * Team 02 stylesheet  
+ * */
+body.overflow-hidden {
+  overflow: hidden;
+}
+.team-02 .title h2 {
+  color: #4b113a;
+  font-weight: bold;
+}
+.team-02 .title p {
+  color: #282828;
+}
+.team-02 .title p.lead {
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-02 .title .border p:before,
+.team-02 .title .border p:after {
+  content: "------------------";
+  letter-spacing: -2px;
+}
+.team-02 #owl-team-02 {
+  padding-top: 50px;
+}
+.team-02 #owl-team-02 .owl-controls {
+  margin-top: 50px;
+}
+.team-02 .owl-theme .owl-dots .owl-dot span {
+  background: black;
+}
+.team-02 .owl-theme .owl-dots .owl-dot.active span,
+.team-02 .owl-theme .owl-dots .owl-dot:hover span {
+  background: black;
+}
+.team-02 .thumbnail {
+  border-radius: 0px;
+}
+.team-02 figure {
+  position: relative;
+}
+.team-02 figure img {
+  display: block;
+  width: 100%;
+}
+.team-02 figure .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 17, 58, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.team-02 figure .overlay span {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.team-02 .col-md-4:hover .overlay {
+  opacity: 1;
+}
+.team-02 .member-info {
+  font-family: 'Raleway', sans-serif;
+  color: #4b113a;
+}
+.team-02 .member-info h4 {
+  font-weight: bold;
+}
+.team-02 .member-info span {
+  color: #282828;
+}
+.cd-member-bio {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 270px;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #2b2b2b;
+  z-index: 1;
+  -webkit-transform: translateX(270px);
+  -moz-transform: translateX(270px);
+  -ms-transform: translateX(270px);
+  -o-transform: translateX(270px);
+  transform: translateX(270px);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.cd-member-bio.slide-in {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.member-title {
+  position: relative;
+  padding: 7em 4em 12em 4em;
+  background: #131313;
+}
+@media only screen and (max-width: 480px) {
+  .member-title {
+    padding: 7em 3em 12em 3em;
+  }
+}
+.member-title .info {
+  float: left;
+  width: 50%;
+  border-right: 1px solid #7e7e7e;
+}
+@media only screen and (max-width: 480px) {
+  .member-title .info {
+    width: 100%;
+    border: none;
+  }
+}
+.member-title .contact {
+  float: right;
+  width: 50%;
+  padding: 1.8em 0 0 8em;
+}
+@media only screen and (max-width: 480px) {
+  .member-title .contact {
+    width: 100%;
+    padding: 0;
+  }
+}
+.member-title h2 {
+  margin-top: 0;
+}
+.member-title h2,
+.member-title h5 {
+  color: white;
+}
+.member-title span.border {
+  width: 50%;
+  border-top: 1px solid #7e7e7e;
+  display: block;
+}
+.cd-member-bio .cd-bio-content {
+  padding: 1em;
+  color: #FFF;
+}
+.cd-member-bio .cd-bio-content span.border {
+  width: 50%;
+  border-top: 1px solid #7e7e7e;
+  display: block;
+  margin: 0 auto;
+}
+.cd-member-bio .cd-bio-content h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cd-member-bio .cd-bio-content h4 {
+  color: #ffffff;
+}
+.cd-member-bio .cd-bio-content p {
+  margin: 1em 0;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 768px) {
+  .cd-member-bio {
+    width: 600px;
+    -webkit-transform: translateX(600px);
+    -moz-transform: translateX(600px);
+    -ms-transform: translateX(600px);
+    -o-transform: translateX(600px);
+    transform: translateX(600px);
+  }
+  .cd-member-bio .cd-bio-content {
+    padding: 4em;
+  }
+  .cd-member-bio .cd-bio-content p {
+    line-height: 1.6;
+    margin: 2em 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .cd-member-bio {
+    width: 800px;
+    -webkit-transform: translateX(800px);
+    -moz-transform: translateX(800px);
+    -ms-transform: translateX(800px);
+    -o-transform: translateX(800px);
+    transform: translateX(800px);
+  }
+  .cd-member-bio .cd-bio-content {
+    padding: 4em;
+    margin-top: ;
+  }
+}
+.cd-member-bio-close {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: url("../../../common/images/cd-icon-close.svg") no-repeat center center;
+  text-indent: 100%;
+  white-space: nowrap;
+  z-index: 3;
+  display: none;
+}
+.cd-member-bio-close.is-visible {
+  display: block;
+  -webkit-animation: cd-move-in 0.8s;
+  -moz-animation: cd-move-in 0.8s;
+  animation: cd-move-in 0.8s;
+}
+@media only screen and (min-width: 1200px) {
+  .cd-member-bio-close {
+    right: 20px;
+    top: 20px;
+  }
+}
+.cd-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: none;
+}
